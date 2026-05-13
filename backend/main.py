@@ -168,22 +168,26 @@ Page: {chunk['page']}
     ]))
 
     prompt = f"""
-Answer the question using the context below.
+You are a document AI assistant.
+
+Answer the user's question ONLY using the provided context.
+
+Be clear, structured, and concise.
+
+At the end ALWAYS include:
+
+## Sources
+
+For every important source used provide:
+- document name
+- page number
+- one short supporting quote
 
 Context:
 {context}
 
 Question:
 {question}
-
-At the end include a section called:
-
-Sources:
-
-For every source used provide:
-- document name
-- page number
-- short supporting snippet
 """
 
     stream = client.chat.completions.create(
