@@ -2,7 +2,7 @@
 
 AI-powered workflow automation platform for intelligent document processing using RAG, semantic retrieval, and streaming AI responses.
 
-![Forge Homepage](screenshots/homepage.png)
+![Forge Homepage](screenshots/homepaage.png)
 
 ---
 
