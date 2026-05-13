@@ -10,9 +10,10 @@ AI-powered workflow automation platform for intelligent document processing usin
 
 Frontend:  
 https://forge-ai-platform-alpha.vercel.app
+this only works when my Local backend server is running!
 
 Backend:  
-Powered locally using Ollama + FastAPI + ngrok
+Powered locally using Ollama + FastAPI + ngrok 
 
 ---
 
