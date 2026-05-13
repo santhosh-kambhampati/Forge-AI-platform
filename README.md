@@ -2,7 +2,7 @@
 
 AI-powered workflow automation platform for intelligent document processing using RAG, semantic retrieval, and streaming AI responses.
 
-![Forge Homepage](screenshots/homepaage.png)
+![Forge Homepage](screenshots/homepage.png)
 
 ---
 
@@ -14,6 +14,12 @@ this only works when my Local backend server is running!
 
 Backend:  
 Powered locally using Ollama + FastAPI + ngrok 
+
+## Demo Video
+
+Watch Forge AI in action:
+
+[▶ Watch Demo Video](https://youtu.be/k42EzNmz6_8)
 
 ---
 
