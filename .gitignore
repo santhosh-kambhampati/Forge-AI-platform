@@ -1,0 +1,11 @@
+venv/
+backend/venv/
+node_modules/
+__pycache__/
+.env
+.DS_Store
+dist/
+build/
+.chroma/
+chroma_db/
+*.pyc
