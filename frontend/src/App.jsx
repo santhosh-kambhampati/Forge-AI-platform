@@ -51,7 +51,7 @@ useEffect(() => {
           selectedWorkflow
         );
         const response = await fetch(
-          "https://forge-ai-production.up.railway.app/upload",
+          "https://caretaker-playmaker-obsessed.ngrok-free.app/upload",
           {
             method: "POST",
             body: formData,
@@ -147,7 +147,7 @@ useEffect(() => {
   try {
 
     const response = await fetch(
-      "https://forge-ai-production.up.railway.app/ask",
+      "https://caretaker-playmaker-obsessed.ngrok-free.app/ask",
       {
         method: "POST",
         body: formData,
