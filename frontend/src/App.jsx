@@ -51,7 +51,7 @@ useEffect(() => {
           selectedWorkflow
         );
         const response = await fetch(
-          "http://127.0.0.1:8000/upload",
+          "https://forge-ai-production.up.railway.app/upload",
           {
             method: "POST",
             body: formData,
@@ -147,7 +147,7 @@ useEffect(() => {
   try {
 
     const response = await fetch(
-      "http://127.0.0.1:8000/ask",
+      "https://forge-ai-production.up.railway.app/ask",
       {
         method: "POST",
         body: formData,
