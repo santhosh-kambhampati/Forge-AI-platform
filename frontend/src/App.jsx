@@ -51,7 +51,7 @@ useEffect(() => {
           selectedWorkflow
         );
         const response = await fetch(
-          "https://caretaker-playmaker-obsessed.ngrok-free.app/upload",
+          "https://caretaker-playmaker-obsessed.ngrok-free.dev/upload",
           {
             method: "POST",
             body: formData,
@@ -147,7 +147,7 @@ useEffect(() => {
   try {
 
     const response = await fetch(
-      "https://caretaker-playmaker-obsessed.ngrok-free.app/ask",
+      "https://caretaker-playmaker-obsessed.ngrok-free.dev/ask",
       {
         method: "POST",
         body: formData,
